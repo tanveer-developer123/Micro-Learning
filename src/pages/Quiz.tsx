@@ -16,7 +16,7 @@ interface LessonType {
   quiz: Question[];
 }
 
-// Helper: mark lesson complete in localStorage
+// Mark lesson complete in localStorage
 const markLessonComplete = (lessonId: string) => {
   const completed = JSON.parse(localStorage.getItem("completedLessons") || "[]");
   if (!completed.includes(lessonId)) {
@@ -34,6 +34,7 @@ export default function Lesson() {
   const [loading, setLoading] = useState(true);
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [selectedOption, setSelectedOption] = useState<string | null>(null);
+  const [submitted, setSubmitted] = useState(false);
   const [answers, setAnswers] = useState<{ [key: number]: string }>({});
 
   useEffect(() => {
@@ -44,6 +45,7 @@ export default function Lesson() {
     setLoading(false);
     setCurrentQuestionIndex(0);
     setSelectedOption(null);
+    setSubmitted(false);
     setAnswers({});
   }, [lessonNumber]);
 
@@ -53,17 +55,20 @@ export default function Lesson() {
   const question = lesson.quiz[currentQuestionIndex];
 
   const handleOptionClick = (option: string) => {
-    setSelectedOption(option);
-    setAnswers({
-      ...answers,
-      [currentQuestionIndex]: option
-    });
+    if (!submitted) setSelectedOption(option);
+  };
+
+  const handleSubmit = () => {
+    if (!selectedOption) return;
+    setAnswers({ ...answers, [currentQuestionIndex]: selectedOption });
+    setSubmitted(true);
   };
 
   const nextQuestion = () => {
     if (currentQuestionIndex < lesson.quiz.length - 1) {
       setCurrentQuestionIndex(currentQuestionIndex + 1);
       setSelectedOption(answers[currentQuestionIndex + 1] || null);
+      setSubmitted(false);
     }
   };
 
@@ -71,6 +76,7 @@ export default function Lesson() {
     if (currentQuestionIndex > 0) {
       setCurrentQuestionIndex(currentQuestionIndex - 1);
       setSelectedOption(answers[currentQuestionIndex - 1] || null);
+      setSubmitted(true);
     }
   };
 
@@ -78,32 +84,28 @@ export default function Lesson() {
   const correctCount = lesson.quiz.filter((q, i) => answers[i] === q.correct).length;
   const wrongCount = lesson.quiz.length - correctCount;
 
+  // Result Page
   if (isQuizComplete && currentQuestionIndex === lesson.quiz.length - 1) {
-  const completed = JSON.parse(localStorage.getItem("completedLessons") || "[]");
-  if (!completed.includes(lesson.id)) {
-    completed.push(lesson.id);
-    localStorage.setItem("completedLessons", JSON.stringify(completed));
+    markLessonComplete(lesson.id);
+
+    return (
+      <div className="max-w-3xl mx-auto my-10 px-4 text-center">
+        <h1 className="text-3xl font-bold mb-4">{lesson.title} - Result</h1>
+        <p className="text-lg mb-2 text-green-600">Correct: {correctCount}</p>
+        <p className="text-lg mb-2 text-red-600">Wrong: {wrongCount}</p>
+        <p className="text-lg mt-4 font-semibold">
+          Score: {Math.round((correctCount / lesson.quiz.length) * 100)}%
+        </p>
+
+        <button
+          onClick={() => navigate("/dashboard")}
+          className="mt-6 py-2 px-6 bg-blue-500 text-white font-semibold rounded-lg hover:bg-blue-600 transition-colors"
+        >
+          Back to Dashboard
+        </button>
+      </div>
+    );
   }
-
-  return (
-    <div className="max-w-3xl mx-auto my-10 px-4 text-center">
-      <h1 className="text-3xl font-bold mb-4">{lesson.title} - Result</h1>
-      <p className="text-lg mb-2 text-green-600">Correct: {correctCount}</p>
-      <p className="text-lg mb-2 text-red-600">Wrong: {wrongCount}</p>
-      <p className="text-lg mt-4 font-semibold">
-        Score: {Math.round((correctCount / lesson.quiz.length) * 100)}%
-      </p>
-
-      <button
-        onClick={() => navigate("/dashboard")}
-        className="mt-6 py-2 px-6 bg-blue-500 text-white font-semibold rounded-lg hover:bg-blue-600 transition-colors"
-      >
-        Back to Dashboard
-      </button>
-    </div>
-  );
-}
-
 
   return (
     <div className="max-w-3xl mx-auto my-10 px-4">
@@ -123,10 +125,14 @@ export default function Lesson() {
               onClick={() => handleOptionClick(opt)}
               className={`py-2 px-4 rounded-lg border text-left font-medium transition-colors
                 ${
-                  selectedOption === opt
+                  submitted
                     ? opt === question.correct
                       ? "bg-green-500 text-white border-green-500"
-                      : "bg-red-500 text-white border-red-500"
+                      : opt === selectedOption
+                      ? "bg-red-500 text-white border-red-500"
+                      : "bg-gray-100 border-gray-300"
+                    : selectedOption === opt
+                    ? "bg-gray-300"
                     : "bg-gray-100 hover:bg-gray-200 border-gray-300"
                 }`}
             >
@@ -139,28 +145,30 @@ export default function Lesson() {
           <button
             onClick={prevQuestion}
             disabled={currentQuestionIndex === 0}
-            className={`py-2 px-6 rounded-lg font-semibold transition-colors
-              ${
-                currentQuestionIndex === 0
-                  ? "bg-gray-300 cursor-not-allowed"
-                  : "bg-blue-500 text-white hover:bg-blue-600"
-              }`}
+            className={`py-2 px-6 rounded-lg font-semibold transition-colors ${
+              currentQuestionIndex === 0
+                ? "bg-gray-300 cursor-not-allowed"
+                : "bg-blue-500 text-white hover:bg-blue-600"
+            }`}
           >
             Previous
           </button>
 
-          <button
-            onClick={nextQuestion}
-            disabled={currentQuestionIndex === lesson.quiz.length - 1}
-            className={`py-2 px-6 rounded-lg font-semibold transition-colors
-              ${
-                currentQuestionIndex === lesson.quiz.length - 1
-                  ? "bg-gray-300 cursor-not-allowed"
-                  : "bg-blue-500 text-white hover:bg-blue-600"
-              }`}
-          >
-            Next
-          </button>
+          {!submitted ? (
+            <button
+              onClick={handleSubmit}
+              className="py-2 px-6 rounded-lg bg-green-500 text-white font-semibold hover:bg-green-600 transition-colors"
+            >
+              Submit
+            </button>
+          ) : (
+            <button
+              onClick={nextQuestion}
+              className="py-2 px-6 rounded-lg bg-blue-500 text-white font-semibold hover:bg-blue-600 transition-colors"
+            >
+              Next
+            </button>
+          )}
         </div>
       </div>
     </div>
