@@ -104,10 +104,10 @@ export default function Lesson() {
           </p>
 
           <button
-            onClick={() => navigate("/dashboard")}
+            onClick={() => navigate("/")}
             className="mt-8 py-3 px-8 bg-white text-blue-600 font-semibold rounded-xl shadow-md hover:scale-105 transition-transform"
           >
-            Back to Dashboard
+            Back to Home
           </button>
         </div>
       </div>
