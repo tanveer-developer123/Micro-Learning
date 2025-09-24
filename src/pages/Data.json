@@ -1,0 +1,2324 @@
+{
+    "lessons": [
+        {
+            "id": "lesson1",
+            "title": "lesson 1",
+            "quiz": [
+                {
+                    "id": 1,
+                    "question": "Which language is known as the 'mother of all programming languages'?",
+                    "options": [
+                        "C",
+                        "Python",
+                        "Java",
+                        "JavaScript"
+                    ],
+                    "correct": "C"
+                },
+                {
+                    "id": 2,
+                    "question": "Which symbol is used to end a statement in C language?",
+                    "options": [
+                        ";",
+                        ":",
+                        ".",
+                        ","
+                    ],
+                    "correct": ";"
+                },
+                {
+                    "id": 3,
+                    "question": "What does HTML stand for?",
+                    "options": [
+                        "Hyper Trainer Marking Language",
+                        "Hyper Text Markup Language",
+                        "High Text Marking Language",
+                        "Hyper Text Marketing Language"
+                    ],
+                    "correct": "Hyper Text Markup Language"
+                },
+                {
+                    "id": 4,
+                    "question": "Which of the following is a backend programming language?",
+                    "options": [
+                        "CSS",
+                        "Python",
+                        "HTML",
+                        "React"
+                    ],
+                    "correct": "Python"
+                },
+                {
+                    "id": 5,
+                    "question": "Which operator is used for comparison in most languages?",
+                    "options": [
+                        "=",
+                        "==",
+                        "===",
+                        ":"
+                    ],
+                    "correct": "=="
+                },
+                {
+                    "id": 6,
+                    "question": "In JavaScript, which keyword is used to declare a variable?",
+                    "options": [
+                        "var",
+                        "int",
+                        "declare",
+                        "def"
+                    ],
+                    "correct": "var"
+                },
+                {
+                    "id": 7,
+                    "question": "Which data structure works on the principle of LIFO?",
+                    "options": [
+                        "Queue",
+                        "Stack",
+                        "Array",
+                        "Linked List"
+                    ],
+                    "correct": "Stack"
+                },
+                {
+                    "id": 8,
+                    "question": "Which of these is a dynamically typed language?",
+                    "options": [
+                        "C",
+                        "C++",
+                        "Java",
+                        "Python"
+                    ],
+                    "correct": "Python"
+                },
+                {
+                    "id": 9,
+                    "question": "Which programming paradigm does Java follow?",
+                    "options": [
+                        "Procedural",
+                        "Functional",
+                        "Object-Oriented",
+                        "Markup"
+                    ],
+                    "correct": "Object-Oriented"
+                },
+                {
+                    "id": 10,
+                    "question": "What is the correct file extension for Python files?",
+                    "options": [
+                        ".pyth",
+                        ".pt",
+                        ".py",
+                        ".p"
+                    ],
+                    "correct": ".py"
+                }
+            ]
+        },
+        {
+            "id": "lesson2",
+            "title": "lesson 2",
+            "quiz": [
+                {
+                    "id": 1,
+                    "question": "Which of the following is NOT a primitive data type in Java?",
+                    "options": [
+                        "int",
+                        "boolean",
+                        "String",
+                        "char"
+                    ],
+                    "correct": "String"
+                },
+                {
+                    "id": 2,
+                    "question": "What will be the output of: 5 % 2 ?",
+                    "options": [
+                        "2",
+                        "1",
+                        "0",
+                        "5"
+                    ],
+                    "correct": "1"
+                },
+                {
+                    "id": 3,
+                    "question": "Which loop is guaranteed to execute at least once?",
+                    "options": [
+                        "for loop",
+                        "while loop",
+                        "do-while loop",
+                        "foreach loop"
+                    ],
+                    "correct": "do-while loop"
+                },
+                {
+                    "id": 4,
+                    "question": "Which keyword is used to exit a loop immediately?",
+                    "options": [
+                        "exit",
+                        "stop",
+                        "break",
+                        "return"
+                    ],
+                    "correct": "break"
+                },
+                {
+                    "id": 5,
+                    "question": "In Python, what is the output of: type(3.0)?",
+                    "options": [
+                        "int",
+                        "double",
+                        "float",
+                        "decimal"
+                    ],
+                    "correct": "float"
+                },
+                {
+                    "id": 6,
+                    "question": "Which of these is a mutable data type in Python?",
+                    "options": [
+                        "tuple",
+                        "list",
+                        "str",
+                        "int"
+                    ],
+                    "correct": "list"
+                },
+                {
+                    "id": 7,
+                    "question": "What does the 'else' block in a loop execute?",
+                    "options": [
+                        "When loop condition is true",
+                        "When loop finishes without break",
+                        "Always at the end",
+                        "When syntax error occurs"
+                    ],
+                    "correct": "When loop finishes without break"
+                },
+                {
+                    "id": 8,
+                    "question": "Which operator is used for logical AND in most programming languages?",
+                    "options": [
+                        "&&",
+                        "&",
+                        "AND",
+                        "||"
+                    ],
+                    "correct": "&&"
+                },
+                {
+                    "id": 9,
+                    "question": "In JavaScript, what is the result of: '5' + 2?",
+                    "options": [
+                        "7",
+                        "52",
+                        "Error",
+                        "NaN"
+                    ],
+                    "correct": "52"
+                },
+                {
+                    "id": 10,
+                    "question": "Which function is the entry point of every C program?",
+                    "options": [
+                        "start()",
+                        "init()",
+                        "main()",
+                        "program()"
+                    ],
+                    "correct": "main()"
+                }
+            ]
+        },
+        {
+            "id": "lesson3",
+            "title": "lesson 3",
+            "quiz": [
+                {
+                    "id": 1,
+                    "question": "Which keyword is used to define a function in Python?",
+                    "options": [
+                        "func",
+                        "function",
+                        "def",
+                        "define"
+                    ],
+                    "correct": "def"
+                },
+                {
+                    "id": 2,
+                    "question": "What is the index of the first element in an array in most programming languages?",
+                    "options": [
+                        "1",
+                        "0",
+                        "-1",
+                        "Depends on the language"
+                    ],
+                    "correct": "0"
+                },
+                {
+                    "id": 3,
+                    "question": "In Java, which keyword is used to create an object?",
+                    "options": [
+                        "create",
+                        "class",
+                        "new",
+                        "object"
+                    ],
+                    "correct": "new"
+                },
+                {
+                    "id": 4,
+                    "question": "Which of the following is NOT a benefit of using functions?",
+                    "options": [
+                        "Code reusability",
+                        "Easier debugging",
+                        "Better organization",
+                        "Slower execution"
+                    ],
+                    "correct": "Slower execution"
+                },
+                {
+                    "id": 5,
+                    "question": "Which data structure is best for storing a collection of elements of the same type?",
+                    "options": [
+                        "Array",
+                        "HashMap",
+                        "Stack",
+                        "Queue"
+                    ],
+                    "correct": "Array"
+                },
+                {
+                    "id": 6,
+                    "question": "In object-oriented programming, which concept allows using the same method name with different parameters?",
+                    "options": [
+                        "Encapsulation",
+                        "Inheritance",
+                        "Polymorphism",
+                        "Abstraction"
+                    ],
+                    "correct": "Polymorphism"
+                },
+                {
+                    "id": 7,
+                    "question": "What is the correct syntax for calling a function named 'myFunc' in C?",
+                    "options": [
+                        "call myFunc;",
+                        "myFunc();",
+                        "function myFunc;",
+                        "run(myFunc);"
+                    ],
+                    "correct": "myFunc();"
+                },
+                {
+                    "id": 8,
+                    "question": "In JavaScript, how do you declare an array?",
+                    "options": [
+                        "var arr = [];",
+                        "array arr;",
+                        "arr = array();",
+                        "let arr = array[];"
+                    ],
+                    "correct": "var arr = [];"
+                },
+                {
+                    "id": 9,
+                    "question": "Which OOP concept bundles data and methods together?",
+                    "options": [
+                        "Encapsulation",
+                        "Polymorphism",
+                        "Inheritance",
+                        "Composition"
+                    ],
+                    "correct": "Encapsulation"
+                },
+                {
+                    "id": 10,
+                    "question": "Which of these is a constructor in C++?",
+                    "options": [
+                        "A function with same name as class",
+                        "A static function",
+                        "A global function",
+                        "A void method"
+                    ],
+                    "correct": "A function with same name as class"
+                }
+            ]
+        },
+        {
+            "id": "lesson4",
+            "title": "lesson 4",
+            "quiz": [
+                {
+                    "id": 1,
+                    "question": "Which OOP concept allows a class to use properties and methods of another class?",
+                    "options": [
+                        "Encapsulation",
+                        "Inheritance",
+                        "Abstraction",
+                        "Polymorphism"
+                    ],
+                    "correct": "Inheritance"
+                },
+                {
+                    "id": 2,
+                    "question": "In Java, which keyword is used to inherit a class?",
+                    "options": [
+                        "inherits",
+                        "super",
+                        "extends",
+                        "implements"
+                    ],
+                    "correct": "extends"
+                },
+                {
+                    "id": 3,
+                    "question": "Which keyword is used in Java to inherit an interface?",
+                    "options": [
+                        "extends",
+                        "implements",
+                        "interface",
+                        "use"
+                    ],
+                    "correct": "implements"
+                },
+                {
+                    "id": 4,
+                    "question": "Which OOP concept focuses on showing only essential details and hiding implementation?",
+                    "options": [
+                        "Encapsulation",
+                        "Inheritance",
+                        "Abstraction",
+                        "Polymorphism"
+                    ],
+                    "correct": "Abstraction"
+                },
+                {
+                    "id": 5,
+                    "question": "What is true about abstract classes?",
+                    "options": [
+                        "They cannot have any methods",
+                        "They can only have private methods",
+                        "They cannot be instantiated",
+                        "They must contain only static methods"
+                    ],
+                    "correct": "They cannot be instantiated"
+                },
+                {
+                    "id": 6,
+                    "question": "In C++, how is multiple inheritance achieved?",
+                    "options": [
+                        "Using the keyword implements",
+                        "Using multiple base classes in declaration",
+                        "Using virtual functions only",
+                        "C++ does not support multiple inheritance"
+                    ],
+                    "correct": "Using multiple base classes in declaration"
+                },
+                {
+                    "id": 7,
+                    "question": "Which OOP concept allows different classes to define methods with the same name?",
+                    "options": [
+                        "Abstraction",
+                        "Encapsulation",
+                        "Polymorphism",
+                        "Inheritance"
+                    ],
+                    "correct": "Polymorphism"
+                },
+                {
+                    "id": 8,
+                    "question": "In Java, an interface can contain:",
+                    "options": [
+                        "Only abstract methods",
+                        "Abstract and default methods",
+                        "Only variables",
+                        "Constructors"
+                    ],
+                    "correct": "Abstract and default methods"
+                },
+                {
+                    "id": 9,
+                    "question": "Which of these best describes method overriding?",
+                    "options": [
+                        "Two methods with same name but different parameters",
+                        "Subclass provides its own version of a method",
+                        "Defining multiple methods in same class",
+                        "Calling multiple methods at once"
+                    ],
+                    "correct": "Subclass provides its own version of a method"
+                },
+                {
+                    "id": 10,
+                    "question": "Which OOP principle is most closely related to real-world hierarchy (Parent → Child)?",
+                    "options": [
+                        "Polymorphism",
+                        "Abstraction",
+                        "Inheritance",
+                        "Encapsulation"
+                    ],
+                    "correct": "Inheritance"
+                }
+            ]
+        },
+        {
+            "id": "lesson5",
+            "title": "lesson5",
+            "quiz": [
+                {
+                    "id": 1,
+                    "question": "Which data structure works on the principle of FIFO?",
+                    "options": [
+                        "Stack",
+                        "Queue",
+                        "Array",
+                        "Tree"
+                    ],
+                    "correct": "Queue"
+                },
+                {
+                    "id": 2,
+                    "question": "Which operation adds an element to the top of a stack?",
+                    "options": [
+                        "push",
+                        "pop",
+                        "enqueue",
+                        "dequeue"
+                    ],
+                    "correct": "push"
+                },
+                {
+                    "id": 3,
+                    "question": "Which operation removes an element from a queue?",
+                    "options": [
+                        "push",
+                        "pop",
+                        "enqueue",
+                        "dequeue"
+                    ],
+                    "correct": "dequeue"
+                },
+                {
+                    "id": 4,
+                    "question": "What is the main advantage of a linked list over an array?",
+                    "options": [
+                        "Faster access to elements",
+                        "Dynamic memory allocation",
+                        "Uses less memory",
+                        "Always faster performance"
+                    ],
+                    "correct": "Dynamic memory allocation"
+                },
+                {
+                    "id": 5,
+                    "question": "In a singly linked list, each node contains:",
+                    "options": [
+                        "Data only",
+                        "Data and pointer to next node",
+                        "Data and pointer to previous node",
+                        "Only pointers"
+                    ],
+                    "correct": "Data and pointer to next node"
+                },
+                {
+                    "id": 6,
+                    "question": "Which data structure is used in function call/recursion?",
+                    "options": [
+                        "Queue",
+                        "Stack",
+                        "Heap",
+                        "Graph"
+                    ],
+                    "correct": "Stack"
+                },
+                {
+                    "id": 7,
+                    "question": "Which hashing technique resolves collisions by linking elements at the same index?",
+                    "options": [
+                        "Open addressing",
+                        "Chaining",
+                        "Double hashing",
+                        "Linear probing"
+                    ],
+                    "correct": "Chaining"
+                },
+                {
+                    "id": 8,
+                    "question": "In a circular queue, what happens when rear reaches the end of array?",
+                    "options": [
+                        "Queue overflows",
+                        "Rear moves to front if space is available",
+                        "Queue is destroyed",
+                        "All elements are deleted"
+                    ],
+                    "correct": "Rear moves to front if space is available"
+                },
+                {
+                    "id": 9,
+                    "question": "Which of these is not a linear data structure?",
+                    "options": [
+                        "Array",
+                        "Stack",
+                        "Graph",
+                        "Queue"
+                    ],
+                    "correct": "Graph"
+                },
+                {
+                    "id": 10,
+                    "question": "What is the time complexity of accessing an element in a HashMap (average case)?",
+                    "options": [
+                        "O(1)",
+                        "O(n)",
+                        "O(log n)",
+                        "O(n log n)"
+                    ],
+                    "correct": "O(1)"
+                }
+            ]
+        },
+        {
+            "id": "lesson6",
+            "title": "lesson 6",
+            "quiz": [
+                {
+                    "id": 1,
+                    "question": "What is the time complexity of binary search (average case)?",
+                    "options": [
+                        "O(1)",
+                        "O(n)",
+                        "O(log n)",
+                        "O(n log n)"
+                    ],
+                    "correct": "O(log n)"
+                },
+                {
+                    "id": 2,
+                    "question": "Which of the following is NOT a comparison-based sorting algorithm?",
+                    "options": [
+                        "Merge Sort",
+                        "Quick Sort",
+                        "Counting Sort",
+                        "Heap Sort"
+                    ],
+                    "correct": "Counting Sort"
+                },
+                {
+                    "id": 3,
+                    "question": "Which sorting algorithm is the fastest on average for large datasets?",
+                    "options": [
+                        "Bubble Sort",
+                        "Quick Sort",
+                        "Selection Sort",
+                        "Insertion Sort"
+                    ],
+                    "correct": "Quick Sort"
+                },
+                {
+                    "id": 4,
+                    "question": "What is the worst-case time complexity of Bubble Sort?",
+                    "options": [
+                        "O(1)",
+                        "O(n)",
+                        "O(n^2)",
+                        "O(log n)"
+                    ],
+                    "correct": "O(n^2)"
+                },
+                {
+                    "id": 5,
+                    "question": "Which searching algorithm works efficiently only on sorted arrays?",
+                    "options": [
+                        "Linear Search",
+                        "Binary Search",
+                        "DFS",
+                        "BFS"
+                    ],
+                    "correct": "Binary Search"
+                },
+                {
+                    "id": 6,
+                    "question": "Which sorting algorithm is stable?",
+                    "options": [
+                        "Merge Sort",
+                        "Quick Sort",
+                        "Heap Sort",
+                        "Selection Sort"
+                    ],
+                    "correct": "Merge Sort"
+                },
+                {
+                    "id": 7,
+                    "question": "Which of these is the best case for Insertion Sort?",
+                    "options": [
+                        "Array already sorted",
+                        "Array reverse sorted",
+                        "Array random order",
+                        "All cases same"
+                    ],
+                    "correct": "Array already sorted"
+                },
+                {
+                    "id": 8,
+                    "question": "What is the space complexity of Merge Sort?",
+                    "options": [
+                        "O(1)",
+                        "O(n)",
+                        "O(log n)",
+                        "O(n^2)"
+                    ],
+                    "correct": "O(n)"
+                },
+                {
+                    "id": 9,
+                    "question": "Which algorithm uses the divide-and-conquer technique?",
+                    "options": [
+                        "Quick Sort",
+                        "Merge Sort",
+                        "Binary Search",
+                        "All of the above"
+                    ],
+                    "correct": "All of the above"
+                },
+                {
+                    "id": 10,
+                    "question": "Which algorithm is used in Dijkstra’s shortest path?",
+                    "options": [
+                        "Greedy Algorithm",
+                        "Dynamic Programming",
+                        "Backtracking",
+                        "Divide and Conquer"
+                    ],
+                    "correct": "Greedy Algorithm"
+                }
+            ]
+        },
+        {
+            "id": "lesson7",
+            "title": "lesson 7",
+            "quiz": [
+                {
+                    "id": 1,
+                    "question": "Which SQL command is used to retrieve data from a database?",
+                    "options": [
+                        "INSERT",
+                        "UPDATE",
+                        "SELECT",
+                        "DELETE"
+                    ],
+                    "correct": "SELECT"
+                },
+                {
+                    "id": 2,
+                    "question": "Which of these is a NoSQL database?",
+                    "options": [
+                        "MySQL",
+                        "MongoDB",
+                        "PostgreSQL",
+                        "Oracle"
+                    ],
+                    "correct": "MongoDB"
+                },
+                {
+                    "id": 3,
+                    "question": "Which of the following is a Firebase feature?",
+                    "options": [
+                        "Authentication",
+                        "Realtime Database",
+                        "Firestore",
+                        "All of the above"
+                    ],
+                    "correct": "All of the above"
+                },
+                {
+                    "id": 4,
+                    "question": "Which SQL keyword is used to sort results?",
+                    "options": [
+                        "SORT BY",
+                        "ORDER BY",
+                        "GROUP BY",
+                        "RANK"
+                    ],
+                    "correct": "ORDER BY"
+                },
+                {
+                    "id": 5,
+                    "question": "Which of these is a primary key?",
+                    "options": [
+                        "A unique identifier",
+                        "A foreign key",
+                        "A duplicate column",
+                        "A random field"
+                    ],
+                    "correct": "A unique identifier"
+                },
+                {
+                    "id": 6,
+                    "question": "Which database stores data in documents as JSON?",
+                    "options": [
+                        "MySQL",
+                        "MongoDB",
+                        "PostgreSQL",
+                        "SQLite"
+                    ],
+                    "correct": "MongoDB"
+                },
+                {
+                    "id": 7,
+                    "question": "Firebase Firestore is what type of database?",
+                    "options": [
+                        "Relational",
+                        "Graph",
+                        "Document",
+                        "Key-Value"
+                    ],
+                    "correct": "Document"
+                },
+                {
+                    "id": 8,
+                    "question": "Which SQL command is used to remove a table?",
+                    "options": [
+                        "DELETE",
+                        "DROP",
+                        "REMOVE",
+                        "CLEAR"
+                    ],
+                    "correct": "DROP"
+                },
+                {
+                    "id": 9,
+                    "question": "Which of these is NOT a database management system?",
+                    "options": [
+                        "MySQL",
+                        "SQLite",
+                        "React",
+                        "Oracle"
+                    ],
+                    "correct": "React"
+                },
+                {
+                    "id": 10,
+                    "question": "Which Firebase database allows real-time updates?",
+                    "options": [
+                        "Firestore",
+                        "Realtime Database",
+                        "Both",
+                        "None"
+                    ],
+                    "correct": "Both"
+                }
+            ]
+        },
+        {
+            "id": "lesson8",
+            "title": "lesson 8",
+            "quiz": [
+                {
+                    "id": 1,
+                    "question": "REST APIs use which protocol?",
+                    "options": [
+                        "HTTP",
+                        "FTP",
+                        "SMTP",
+                        "SSH"
+                    ],
+                    "correct": "HTTP"
+                },
+                {
+                    "id": 2,
+                    "question": "GraphQL was developed by?",
+                    "options": [
+                        "Google",
+                        "Facebook",
+                        "Microsoft",
+                        "Amazon"
+                    ],
+                    "correct": "Facebook"
+                },
+                {
+                    "id": 3,
+                    "question": "JSON stands for?",
+                    "options": [
+                        "Java Source Object Notation",
+                        "JavaScript Object Notation",
+                        "Java Syntax Output Node",
+                        "None"
+                    ],
+                    "correct": "JavaScript Object Notation"
+                },
+                {
+                    "id": 4,
+                    "question": "Which HTTP method retrieves data?",
+                    "options": [
+                        "POST",
+                        "GET",
+                        "PUT",
+                        "DELETE"
+                    ],
+                    "correct": "GET"
+                },
+                {
+                    "id": 5,
+                    "question": "GraphQL queries return?",
+                    "options": [
+                        "Only requested data",
+                        "All database",
+                        "XML",
+                        "CSV"
+                    ],
+                    "correct": "Only requested data"
+                },
+                {
+                    "id": 6,
+                    "question": "Which format is mostly used in REST API?",
+                    "options": [
+                        "XML",
+                        "CSV",
+                        "JSON",
+                        "TXT"
+                    ],
+                    "correct": "JSON"
+                },
+                {
+                    "id": 7,
+                    "question": "HTTP status code 404 means?",
+                    "options": [
+                        "OK",
+                        "Not Found",
+                        "Server Error",
+                        "Unauthorized"
+                    ],
+                    "correct": "Not Found"
+                },
+                {
+                    "id": 8,
+                    "question": "Which is NOT a REST principle?",
+                    "options": [
+                        "Stateless",
+                        "Cacheable",
+                        "Layered System",
+                        "Mutable Session"
+                    ],
+                    "correct": "Mutable Session"
+                },
+                {
+                    "id": 9,
+                    "question": "GraphQL mutation is for?",
+                    "options": [
+                        "Reading",
+                        "Writing/Updating",
+                        "Sorting",
+                        "Debugging"
+                    ],
+                    "correct": "Writing/Updating"
+                },
+                {
+                    "id": 10,
+                    "question": "Which tool is used to test APIs?",
+                    "options": [
+                        "VS Code",
+                        "Postman",
+                        "React",
+                        "Git"
+                    ],
+                    "correct": "Postman"
+                }
+            ]
+        },
+        {
+            "id": "lesson9",
+            "title": "lesson 9",
+            "quiz": [
+                {
+                    "id": 1,
+                    "question": "Which command initializes a new Git repository?",
+                    "options": [
+                        "git start",
+                        "git init",
+                        "git new",
+                        "git create"
+                    ],
+                    "correct": "git init"
+                },
+                {
+                    "id": 2,
+                    "question": "Which command shows commit history?",
+                    "options": [
+                        "git log",
+                        "git show",
+                        "git history",
+                        "git commits"
+                    ],
+                    "correct": "git log"
+                },
+                {
+                    "id": 3,
+                    "question": "Which file stores ignored files in Git?",
+                    "options": [
+                        ".gitignore",
+                        ".gitconfig",
+                        "ignore.txt",
+                        "config.json"
+                    ],
+                    "correct": ".gitignore"
+                },
+                {
+                    "id": 4,
+                    "question": "Which branch is created by default?",
+                    "options": [
+                        "main",
+                        "master",
+                        "dev",
+                        "default"
+                    ],
+                    "correct": "main"
+                },
+                {
+                    "id": 5,
+                    "question": "Which command stages changes?",
+                    "options": [
+                        "git push",
+                        "git add",
+                        "git commit",
+                        "git stage"
+                    ],
+                    "correct": "git add"
+                },
+                {
+                    "id": 6,
+                    "question": "Which command uploads code to remote?",
+                    "options": [
+                        "git fetch",
+                        "git push",
+                        "git merge",
+                        "git upload"
+                    ],
+                    "correct": "git push"
+                },
+                {
+                    "id": 7,
+                    "question": "Which command downloads changes from remote?",
+                    "options": [
+                        "git fetch",
+                        "git pull",
+                        "git clone",
+                        "git sync"
+                    ],
+                    "correct": "git pull"
+                },
+                {
+                    "id": 8,
+                    "question": "Which command creates a new branch?",
+                    "options": [
+                        "git branch new",
+                        "git checkout -b",
+                        "git init branch",
+                        "git make"
+                    ],
+                    "correct": "git checkout -b"
+                },
+                {
+                    "id": 9,
+                    "question": "Which command merges branches?",
+                    "options": [
+                        "git merge",
+                        "git pull",
+                        "git sync",
+                        "git push"
+                    ],
+                    "correct": "git merge"
+                },
+                {
+                    "id": 10,
+                    "question": "Git is a?",
+                    "options": [
+                        "Programming language",
+                        "Database",
+                        "Version control system",
+                        "Compiler"
+                    ],
+                    "correct": "Version control system"
+                }
+            ]
+        },
+        {
+            "id": "lesson10",
+            "title": "lesson 10",
+            "quiz": [
+                {
+                    "id": 1,
+                    "question": "Which HTML tag is used for tables?",
+                    "options": [
+                        "<div>",
+                        "<table>",
+                        "<form>",
+                        "<ul>"
+                    ],
+                    "correct": "<table>"
+                },
+                {
+                    "id": 2,
+                    "question": "Which tag defines an image?",
+                    "options": [
+                        "<pic>",
+                        "<img>",
+                        "<src>",
+                        "<image>"
+                    ],
+                    "correct": "<img>"
+                },
+                {
+                    "id": 3,
+                    "question": "Which attribute specifies a link URL?",
+                    "options": [
+                        "src",
+                        "href",
+                        "url",
+                        "link"
+                    ],
+                    "correct": "href"
+                },
+                {
+                    "id": 4,
+                    "question": "Semantic tag for navigation?",
+                    "options": [
+                        "<nav>",
+                        "<section>",
+                        "<aside>",
+                        "<main>"
+                    ],
+                    "correct": "<nav>"
+                },
+                {
+                    "id": 5,
+                    "question": "Which input type is for email?",
+                    "options": [
+                        "text",
+                        "mail",
+                        "email",
+                        "password"
+                    ],
+                    "correct": "email"
+                },
+                {
+                    "id": 6,
+                    "question": "Which tag is used for video?",
+                    "options": [
+                        "<vid>",
+                        "<video>",
+                        "<media>",
+                        "<play>"
+                    ],
+                    "correct": "<video>"
+                },
+                {
+                    "id": 7,
+                    "question": "HTML5 introduced?",
+                    "options": [
+                        "<article>",
+                        "<section>",
+                        "<footer>",
+                        "All"
+                    ],
+                    "correct": "All"
+                },
+                {
+                    "id": 8,
+                    "question": "Which tag makes a checkbox?",
+                    "options": [
+                        "<checkbox>",
+                        "<input type='checkbox'>",
+                        "<check>",
+                        "<box>"
+                    ],
+                    "correct": "<input type='checkbox'>"
+                },
+                {
+                    "id": 9,
+                    "question": "Which tag defines a list item?",
+                    "options": [
+                        "<li>",
+                        "<ol>",
+                        "<ul>",
+                        "<item>"
+                    ],
+                    "correct": "<li>"
+                },
+                {
+                    "id": 10,
+                    "question": "Which meta tag sets page encoding?",
+                    "options": [
+                        "<meta charset>",
+                        "<meta encode>",
+                        "<meta utf>",
+                        "<meta type>"
+                    ],
+                    "correct": "<meta charset>"
+                }
+            ]
+        },
+        {
+            "id": "lesson11",
+            "title": "lesson 11",
+            "quiz": [
+                {
+                    "id": 1,
+                    "question": "Which property changes text color?",
+                    "options": [
+                        "font-color",
+                        "text-color",
+                        "color",
+                        "background"
+                    ],
+                    "correct": "color"
+                },
+                {
+                    "id": 2,
+                    "question": "Which unit is relative to parent?",
+                    "options": [
+                        "px",
+                        "em",
+                        "cm",
+                        "in"
+                    ],
+                    "correct": "em"
+                },
+                {
+                    "id": 3,
+                    "question": "CSS Grid property for columns?",
+                    "options": [
+                        "grid-template-columns",
+                        "grid-cols",
+                        "flex-cols",
+                        "columns"
+                    ],
+                    "correct": "grid-template-columns"
+                },
+                {
+                    "id": 4,
+                    "question": "Which position keeps element fixed?",
+                    "options": [
+                        "absolute",
+                        "fixed",
+                        "relative",
+                        "sticky"
+                    ],
+                    "correct": "fixed"
+                },
+                {
+                    "id": 5,
+                    "question": "Which pseudo-class is for hover state?",
+                    "options": [
+                        ":focus",
+                        ":hover",
+                        ":active",
+                        ":link"
+                    ],
+                    "correct": ":hover"
+                },
+                {
+                    "id": 6,
+                    "question": "Flexbox direction row?",
+                    "options": [
+                        "flex-direction: row",
+                        "row: flex",
+                        "display: row",
+                        "align: row"
+                    ],
+                    "correct": "flex-direction: row"
+                },
+                {
+                    "id": 7,
+                    "question": "Which sets background image?",
+                    "options": [
+                        "background-img",
+                        "background-image",
+                        "img",
+                        "image"
+                    ],
+                    "correct": "background-image"
+                },
+                {
+                    "id": 8,
+                    "question": "CSS variable is declared with?",
+                    "options": [
+                        "@",
+                        "--",
+                        "$",
+                        "#"
+                    ],
+                    "correct": "--"
+                },
+                {
+                    "id": 9,
+                    "question": "Media queries used for?",
+                    "options": [
+                        "Animations",
+                        "Responsive design",
+                        "Colors",
+                        "Grids"
+                    ],
+                    "correct": "Responsive design"
+                },
+                {
+                    "id": 10,
+                    "question": "Which property adds shadow?",
+                    "options": [
+                        "text-shadow",
+                        "box-shadow",
+                        "shadow",
+                        "outline"
+                    ],
+                    "correct": "box-shadow"
+                }
+            ]
+        },
+        {
+            "id": "lesson12",
+            "title": "lesson 12",
+            "quiz": [
+                {
+                    "id": 1,
+                    "question": "Which keyword declares a constant?",
+                    "options": [
+                        "var",
+                        "let",
+                        "const",
+                        "static"
+                    ],
+                    "correct": "const"
+                },
+                {
+                    "id": 2,
+                    "question": "Which method converts JSON to object?",
+                    "options": [
+                        "JSON.stringify()",
+                        "JSON.parse()",
+                        "toObject()",
+                        "parseJSON()"
+                    ],
+                    "correct": "JSON.parse()"
+                },
+                {
+                    "id": 3,
+                    "question": "Which operator checks both value & type?",
+                    "options": [
+                        "==",
+                        "===",
+                        "=",
+                        "!="
+                    ],
+                    "correct": "==="
+                },
+                {
+                    "id": 4,
+                    "question": "Which array method adds element at end?",
+                    "options": [
+                        "push()",
+                        "pop()",
+                        "shift()",
+                        "unshift()"
+                    ],
+                    "correct": "push()"
+                },
+                {
+                    "id": 5,
+                    "question": "Arrow functions were introduced in?",
+                    "options": [
+                        "ES5",
+                        "ES6",
+                        "ES7",
+                        "ES8"
+                    ],
+                    "correct": "ES6"
+                },
+                {
+                    "id": 6,
+                    "question": "Which keyword handles errors?",
+                    "options": [
+                        "if",
+                        "catch",
+                        "throw",
+                        "try-catch"
+                    ],
+                    "correct": "try-catch"
+                },
+                {
+                    "id": 7,
+                    "question": "Which method filters array?",
+                    "options": [
+                        "map()",
+                        "filter()",
+                        "reduce()",
+                        "find()"
+                    ],
+                    "correct": "filter()"
+                },
+                {
+                    "id": 8,
+                    "question": "Which function delays execution?",
+                    "options": [
+                        "setInterval()",
+                        "setTimeout()",
+                        "delay()",
+                        "sleep()"
+                    ],
+                    "correct": "setTimeout()"
+                },
+                {
+                    "id": 9,
+                    "question": "typeof null is?",
+                    "options": [
+                        "null",
+                        "object",
+                        "undefined",
+                        "boolean"
+                    ],
+                    "correct": "object"
+                },
+                {
+                    "id": 10,
+                    "question": "Which scope is block-scoped?",
+                    "options": [
+                        "var",
+                        "let",
+                        "function",
+                        "global"
+                    ],
+                    "correct": "let"
+                }
+            ]
+        },
+        {
+            "id": "lesson13",
+            "title": "lesson 13",
+            "quiz": [
+                {
+                    "id": 1,
+                    "question": "React was developed by?",
+                    "options": [
+                        "Google",
+                        "Facebook",
+                        "Microsoft",
+                        "Amazon"
+                    ],
+                    "correct": "Facebook"
+                },
+                {
+                    "id": 2,
+                    "question": "JSX stands for?",
+                    "options": [
+                        "JavaScript XML",
+                        "Java Syntax Extension",
+                        "JSON XML",
+                        "Java Standard"
+                    ],
+                    "correct": "JavaScript XML"
+                },
+                {
+                    "id": 3,
+                    "question": "Which hook is for state?",
+                    "options": [
+                        "useEffect",
+                        "useState",
+                        "useReducer",
+                        "useContext"
+                    ],
+                    "correct": "useState"
+                },
+                {
+                    "id": 4,
+                    "question": "React components return?",
+                    "options": [
+                        "HTML",
+                        "JSX",
+                        "CSS",
+                        "JSON"
+                    ],
+                    "correct": "JSX"
+                },
+                {
+                    "id": 5,
+                    "question": "Which command creates React app?",
+                    "options": [
+                        "npx create-react-app",
+                        "npm start react",
+                        "react new",
+                        "yarn react"
+                    ],
+                    "correct": "npx create-react-app"
+                },
+                {
+                    "id": 6,
+                    "question": "Props are?",
+                    "options": [
+                        "Mutable",
+                        "Immutable",
+                        "Variables",
+                        "Functions"
+                    ],
+                    "correct": "Immutable"
+                },
+                {
+                    "id": 7,
+                    "question": "Which renders UI?",
+                    "options": [
+                        "render()",
+                        "print()",
+                        "display()",
+                        "show()"
+                    ],
+                    "correct": "render()"
+                },
+                {
+                    "id": 8,
+                    "question": "useEffect is used for?",
+                    "options": [
+                        "Styling",
+                        "Side Effects",
+                        "Props",
+                        "State"
+                    ],
+                    "correct": "Side Effects"
+                },
+                {
+                    "id": 9,
+                    "question": "Which method updates state in class components?",
+                    "options": [
+                        "updateState()",
+                        "this.setState()",
+                        "change()",
+                        "modify()"
+                    ],
+                    "correct": "this.setState()"
+                },
+                {
+                    "id": 10,
+                    "question": "React is?",
+                    "options": [
+                        "Framework",
+                        "Library",
+                        "Language",
+                        "Compiler"
+                    ],
+                    "correct": "Library"
+                }
+            ]
+        },
+        {
+            "id": "lesson14",
+            "title": "lesson 14",
+            "quiz": [
+                {
+                    "id": 1,
+                    "question": "State in React is?",
+                    "options": [
+                        "Immutable",
+                        "Mutable",
+                        "Static",
+                        "External"
+                    ],
+                    "correct": "Mutable"
+                },
+                {
+                    "id": 2,
+                    "question": "Props are passed from?",
+                    "options": [
+                        "Child to Parent",
+                        "Parent to Child",
+                        "Anywhere",
+                        "Global"
+                    ],
+                    "correct": "Parent to Child"
+                },
+                {
+                    "id": 3,
+                    "question": "Which hook manages state?",
+                    "options": [
+                        "useState",
+                        "useEffect",
+                        "useContext",
+                        "useReducer"
+                    ],
+                    "correct": "useState"
+                },
+                {
+                    "id": 4,
+                    "question": "Props are?",
+                    "options": [
+                        "Arguments",
+                        "Variables",
+                        "Functions",
+                        "Objects"
+                    ],
+                    "correct": "Arguments"
+                },
+                {
+                    "id": 5,
+                    "question": "Which is used for default props?",
+                    "options": [
+                        "setProps",
+                        "defaultProps",
+                        "initProps",
+                        "startProps"
+                    ],
+                    "correct": "defaultProps"
+                },
+                {
+                    "id": 6,
+                    "question": "Props cannot be?",
+                    "options": [
+                        "Changed",
+                        "Read",
+                        "Passed",
+                        "Accessed"
+                    ],
+                    "correct": "Changed"
+                },
+                {
+                    "id": 7,
+                    "question": "State updates cause?",
+                    "options": [
+                        "Nothing",
+                        "Re-render",
+                        "New Component",
+                        "Crash"
+                    ],
+                    "correct": "Re-render"
+                },
+                {
+                    "id": 8,
+                    "question": "Which type are props?",
+                    "options": [
+                        "Read-only",
+                        "Writable",
+                        "Mutable",
+                        "Static"
+                    ],
+                    "correct": "Read-only"
+                },
+                {
+                    "id": 9,
+                    "question": "Props drilling means?",
+                    "options": [
+                        "Deep passing props",
+                        "Deleting props",
+                        "Updating state",
+                        "Sharing hooks"
+                    ],
+                    "correct": "Deep passing props"
+                },
+                {
+                    "id": 10,
+                    "question": "Best way to avoid prop drilling?",
+                    "options": [
+                        "useEffect",
+                        "useContext",
+                        "useState",
+                        "useReducer"
+                    ],
+                    "correct": "useContext"
+                }
+            ]
+        },
+        {
+            "id": "lesson15",
+            "title": "lesson 15",
+            "quiz": [
+                {
+                    "id": 1,
+                    "question": "Hooks were introduced in?",
+                    "options": [
+                        "React 14",
+                        "React 15",
+                        "React 16.8",
+                        "React 17"
+                    ],
+                    "correct": "React 16.8"
+                },
+                {
+                    "id": 2,
+                    "question": "Which hook handles side effects?",
+                    "options": [
+                        "useEffect",
+                        "useState",
+                        "useReducer",
+                        "useMemo"
+                    ],
+                    "correct": "useEffect"
+                },
+                {
+                    "id": 3,
+                    "question": "Which hook for state?",
+                    "options": [
+                        "useState",
+                        "useRef",
+                        "useMemo",
+                        "useCallback"
+                    ],
+                    "correct": "useState"
+                },
+                {
+                    "id": 4,
+                    "question": "Which hook stores mutable ref?",
+                    "options": [
+                        "useMemo",
+                        "useRef",
+                        "useEffect",
+                        "useContext"
+                    ],
+                    "correct": "useRef"
+                },
+                {
+                    "id": 5,
+                    "question": "Which hook memoizes value?",
+                    "options": [
+                        "useMemo",
+                        "useEffect",
+                        "useCallback",
+                        "useState"
+                    ],
+                    "correct": "useMemo"
+                },
+                {
+                    "id": 6,
+                    "question": "Which hook memoizes functions?",
+                    "options": [
+                        "useState",
+                        "useCallback",
+                        "useEffect",
+                        "useMemo"
+                    ],
+                    "correct": "useCallback"
+                },
+                {
+                    "id": 7,
+                    "question": "Which hook shares data globally?",
+                    "options": [
+                        "useEffect",
+                        "useReducer",
+                        "useContext",
+                        "useState"
+                    ],
+                    "correct": "useContext"
+                },
+                {
+                    "id": 8,
+                    "question": "useReducer is alternative to?",
+                    "options": [
+                        "useState",
+                        "useEffect",
+                        "useRef",
+                        "useMemo"
+                    ],
+                    "correct": "useState"
+                },
+                {
+                    "id": 9,
+                    "question": "Custom hooks are?",
+                    "options": [
+                        "Functions",
+                        "Classes",
+                        "Props",
+                        "Variables"
+                    ],
+                    "correct": "Functions"
+                },
+                {
+                    "id": 10,
+                    "question": "Hooks can be used in?",
+                    "options": [
+                        "Class components",
+                        "Functional components",
+                        "Both",
+                        "None"
+                    ],
+                    "correct": "Functional components"
+                }
+            ]
+        },
+        {
+            "id": "lesson16",
+            "title": "lesson 16",
+            "quiz": [
+                {
+                    "id": 1,
+                    "question": "TypeScript is developed by?",
+                    "options": [
+                        "Facebook",
+                        "Google",
+                        "Microsoft",
+                        "Amazon"
+                    ],
+                    "correct": "Microsoft"
+                },
+                {
+                    "id": 2,
+                    "question": "File extension for TypeScript?",
+                    "options": [
+                        ".js",
+                        ".ts",
+                        ".tsx",
+                        "Both .ts & .tsx"
+                    ],
+                    "correct": "Both .ts & .tsx"
+                },
+                {
+                    "id": 3,
+                    "question": "TypeScript is a superset of?",
+                    "options": [
+                        "Python",
+                        "C++",
+                        "JavaScript",
+                        "Java"
+                    ],
+                    "correct": "JavaScript"
+                },
+                {
+                    "id": 4,
+                    "question": "Which keyword defines type?",
+                    "options": [
+                        "type",
+                        "interface",
+                        "var",
+                        "struct"
+                    ],
+                    "correct": "type"
+                },
+                {
+                    "id": 5,
+                    "question": "Which supports OOP in TS?",
+                    "options": [
+                        "Class",
+                        "Struct",
+                        "Module",
+                        "Namespace"
+                    ],
+                    "correct": "Class"
+                },
+                {
+                    "id": 6,
+                    "question": "Which type means any value?",
+                    "options": [
+                        "unknown",
+                        "any",
+                        "void",
+                        "never"
+                    ],
+                    "correct": "any"
+                },
+                {
+                    "id": 7,
+                    "question": "Which type means no value?",
+                    "options": [
+                        "null",
+                        "undefined",
+                        "void",
+                        "never"
+                    ],
+                    "correct": "void"
+                },
+                {
+                    "id": 8,
+                    "question": "Which utility makes properties optional?",
+                    "options": [
+                        "Partial",
+                        "Readonly",
+                        "Pick",
+                        "Record"
+                    ],
+                    "correct": "Partial"
+                },
+                {
+                    "id": 9,
+                    "question": "Which keyword is used for inheritance?",
+                    "options": [
+                        "extends",
+                        "inherits",
+                        "super",
+                        "base"
+                    ],
+                    "correct": "extends"
+                },
+                {
+                    "id": 10,
+                    "question": "Which type never returns?",
+                    "options": [
+                        "never",
+                        "void",
+                        "null",
+                        "undefined"
+                    ],
+                    "correct": "never"
+                }
+            ]
+        },
+        {
+            "id": "lesson17",
+            "title": "lesson 17",
+            "quiz": [
+                {
+                    "id": 1,
+                    "question": "Node.js is built on?",
+                    "options": [
+                        "V8 Engine",
+                        "Java VM",
+                        ".NET",
+                        "PHP"
+                    ],
+                    "correct": "V8 Engine"
+                },
+                {
+                    "id": 2,
+                    "question": "Which module handles file system?",
+                    "options": [
+                        "fs",
+                        "http",
+                        "path",
+                        "os"
+                    ],
+                    "correct": "fs"
+                },
+                {
+                    "id": 3,
+                    "question": "Which module creates server?",
+                    "options": [
+                        "http",
+                        "url",
+                        "net",
+                        "dns"
+                    ],
+                    "correct": "http"
+                },
+                {
+                    "id": 4,
+                    "question": "npm stands for?",
+                    "options": [
+                        "Node Project Manager",
+                        "Node Package Manager",
+                        "Network Package Manager",
+                        "None"
+                    ],
+                    "correct": "Node Package Manager"
+                },
+                {
+                    "id": 5,
+                    "question": "Which command initializes npm?",
+                    "options": [
+                        "npm start",
+                        "npm init",
+                        "npm install",
+                        "npm run"
+                    ],
+                    "correct": "npm init"
+                },
+                {
+                    "id": 6,
+                    "question": "Which keyword imports modules?",
+                    "options": [
+                        "require",
+                        "import",
+                        "include",
+                        "load"
+                    ],
+                    "correct": "require"
+                },
+                {
+                    "id": 7,
+                    "question": "Which keyword exports modules?",
+                    "options": [
+                        "exports",
+                        "output",
+                        "module",
+                        "send"
+                    ],
+                    "correct": "exports"
+                },
+                {
+                    "id": 8,
+                    "question": "Which method reads a file?",
+                    "options": [
+                        "fs.read()",
+                        "fs.readFile()",
+                        "fs.getFile()",
+                        "file.read()"
+                    ],
+                    "correct": "fs.readFile()"
+                },
+                {
+                    "id": 9,
+                    "question": "Which function runs async code?",
+                    "options": [
+                        "setTimeout()",
+                        "delay()",
+                        "async()",
+                        "await()"
+                    ],
+                    "correct": "setTimeout()"
+                },
+                {
+                    "id": 10,
+                    "question": "Which file defines dependencies?",
+                    "options": [
+                        "package.json",
+                        "index.js",
+                        "server.js",
+                        "config.json"
+                    ],
+                    "correct": "package.json"
+                }
+            ]
+        },
+        {
+            "id": "lesson18",
+            "title": "lesson 18",
+            "quiz": [
+                {
+                    "id": 1,
+                    "question": "Express.js is a?",
+                    "options": [
+                        "Framework",
+                        "Library",
+                        "Language",
+                        "Compiler"
+                    ],
+                    "correct": "Framework"
+                },
+                {
+                    "id": 2,
+                    "question": "Which command installs Express?",
+                    "options": [
+                        "npm install express",
+                        "npm add express",
+                        "yarn express",
+                        "node install express"
+                    ],
+                    "correct": "npm install express"
+                },
+                {
+                    "id": 3,
+                    "question": "Which method handles GET?",
+                    "options": [
+                        "app.get()",
+                        "app.post()",
+                        "app.use()",
+                        "app.fetch()"
+                    ],
+                    "correct": "app.get()"
+                },
+                {
+                    "id": 4,
+                    "question": "Which method handles POST?",
+                    "options": [
+                        "app.get()",
+                        "app.post()",
+                        "app.put()",
+                        "app.send()"
+                    ],
+                    "correct": "app.post()"
+                },
+                {
+                    "id": 5,
+                    "question": "Middleware is used for?",
+                    "options": [
+                        "Routing",
+                        "Handling requests",
+                        "Error handling",
+                        "All"
+                    ],
+                    "correct": "All"
+                },
+                {
+                    "id": 6,
+                    "question": "Which method starts server?",
+                    "options": [
+                        "app.run()",
+                        "app.listen()",
+                        "app.start()",
+                        "app.begin()"
+                    ],
+                    "correct": "app.listen()"
+                },
+                {
+                    "id": 7,
+                    "question": "Which package allows CORS?",
+                    "options": [
+                        "cors",
+                        "axios",
+                        "helmet",
+                        "express-cors"
+                    ],
+                    "correct": "cors"
+                },
+                {
+                    "id": 8,
+                    "question": "Which module makes HTTP requests?",
+                    "options": [
+                        "axios",
+                        "fetch",
+                        "request",
+                        "All"
+                    ],
+                    "correct": "All"
+                },
+                {
+                    "id": 9,
+                    "question": "Which status code is success?",
+                    "options": [
+                        "200",
+                        "201",
+                        "204",
+                        "All"
+                    ],
+                    "correct": "All"
+                },
+                {
+                    "id": 10,
+                    "question": "Which method updates data?",
+                    "options": [
+                        "PUT",
+                        "PATCH",
+                        "Both",
+                        "None"
+                    ],
+                    "correct": "Both"
+                }
+            ]
+        },
+        {
+            "id": "lesson19",
+            "title": "lesson 19",
+            "quiz": [
+                {
+                    "id": 1,
+                    "question": "JWT stands for?",
+                    "options": [
+                        "Java Web Token",
+                        "JSON Web Token",
+                        "JavaScript Web Type",
+                        "JSON With Token"
+                    ],
+                    "correct": "JSON Web Token"
+                },
+                {
+                    "id": 2,
+                    "question": "Which algorithm signs JWT?",
+                    "options": [
+                        "RSA",
+                        "HMAC",
+                        "Both",
+                        "None"
+                    ],
+                    "correct": "Both"
+                },
+                {
+                    "id": 3,
+                    "question": "JWT has how many parts?",
+                    "options": [
+                        "2",
+                        "3",
+                        "4",
+                        "5"
+                    ],
+                    "correct": "3"
+                },
+                {
+                    "id": 4,
+                    "question": "First part of JWT is?",
+                    "options": [
+                        "Header",
+                        "Payload",
+                        "Signature",
+                        "Token"
+                    ],
+                    "correct": "Header"
+                },
+                {
+                    "id": 5,
+                    "question": "Second part of JWT is?",
+                    "options": [
+                        "Payload",
+                        "Header",
+                        "Signature",
+                        "Body"
+                    ],
+                    "correct": "Payload"
+                },
+                {
+                    "id": 6,
+                    "question": "Third part of JWT is?",
+                    "options": [
+                        "Signature",
+                        "Payload",
+                        "Header",
+                        "Footer"
+                    ],
+                    "correct": "Signature"
+                },
+                {
+                    "id": 7,
+                    "question": "Which header stores JWT?",
+                    "options": [
+                        "Auth",
+                        "Authorization",
+                        "Token",
+                        "Access"
+                    ],
+                    "correct": "Authorization"
+                },
+                {
+                    "id": 8,
+                    "question": "Which HTTP code is unauthorized?",
+                    "options": [
+                        "401",
+                        "403",
+                        "404",
+                        "500"
+                    ],
+                    "correct": "401"
+                },
+                {
+                    "id": 9,
+                    "question": "Which package generates JWT?",
+                    "options": [
+                        "jsonwebtoken",
+                        "jwt",
+                        "tokenizer",
+                        "auth"
+                    ],
+                    "correct": "jsonwebtoken"
+                },
+                {
+                    "id": 10,
+                    "question": "Which is safer?",
+                    "options": [
+                        "Session",
+                        "JWT",
+                        "Cookies",
+                        "Password"
+                    ],
+                    "correct": "JWT"
+                }
+            ]
+        },
+        {
+            "id": "lesson20",
+            "title": "lesson 20",
+            "quiz": [
+                {
+                    "id": 1,
+                    "question": "Which service is for static hosting?",
+                    "options": [
+                        "Firebase Hosting",
+                        "MongoDB",
+                        "MySQL",
+                        "React"
+                    ],
+                    "correct": "Firebase Hosting"
+                },
+                {
+                    "id": 2,
+                    "question": "Which command deploys Firebase?",
+                    "options": [
+                        "firebase deploy",
+                        "firebase start",
+                        "firebase init",
+                        "firebase push"
+                    ],
+                    "correct": "firebase deploy"
+                },
+                {
+                    "id": 3,
+                    "question": "Which platform hosts React apps?",
+                    "options": [
+                        "Vercel",
+                        "Netlify",
+                        "Firebase",
+                        "All"
+                    ],
+                    "correct": "All"
+                },
+                {
+                    "id": 4,
+                    "question": "Which file defines Firebase config?",
+                    "options": [
+                        "firebase.json",
+                        "config.js",
+                        "setup.json",
+                        "deploy.json"
+                    ],
+                    "correct": "firebase.json"
+                },
+                {
+                    "id": 5,
+                    "question": "Which service offers free SSL?",
+                    "options": [
+                        "Vercel",
+                        "Netlify",
+                        "Firebase",
+                        "All"
+                    ],
+                    "correct": "All"
+                },
+                {
+                    "id": 6,
+                    "question": "Which command builds React app?",
+                    "options": [
+                        "npm run build",
+                        "npm start",
+                        "npm dev",
+                        "npm react"
+                    ],
+                    "correct": "npm run build"
+                },
+                {
+                    "id": 7,
+                    "question": "Which is NOT a cloud provider?",
+                    "options": [
+                        "AWS",
+                        "GCP",
+                        "Azure",
+                        "HTML"
+                    ],
+                    "correct": "HTML"
+                },
+                {
+                    "id": 8,
+                    "question": "CI/CD stands for?",
+                    "options": [
+                        "Continuous Integration/Continuous Deployment",
+                        "Code Integration/Code Delivery",
+                        "Central Install/Cloud Deploy",
+                        "None"
+                    ],
+                    "correct": "Continuous Integration/Continuous Deployment"
+                },
+                {
+                    "id": 9,
+                    "question": "Which Firebase command initializes?",
+                    "options": [
+                        "firebase init",
+                        "firebase deploy",
+                        "firebase start",
+                        "firebase config"
+                    ],
+                    "correct": "firebase init"
+                },
+                {
+                    "id": 10,
+                    "question": "Which is a containerization tool?",
+                    "options": [
+                        "Docker",
+                        "Kubernetes",
+                        "Both",
+                        "None"
+                    ],
+                    "correct": "Both"
+                }
+            ]
+        }
+    ]
+}
